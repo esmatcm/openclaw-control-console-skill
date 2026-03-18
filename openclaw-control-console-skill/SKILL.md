@@ -20,6 +20,8 @@ Keep the direct or main window as a control console, not a worksite.
 Apply these defaults unless the user explicitly asks for full detail:
 
 - Keep replies short and operational.
+- Default to token-efficient replies: conclusion first, short answer by default, details only on request.
+- If the user says `浓缩`, `短答`, or `只给结论`, switch to minimal-necessary reply mode immediately.
 - Do not paste long tool output, long logs, long file dumps, or long audit text into the main window.
 - Put detailed evidence into files such as `reports/`, `memory/`, or project artifacts, then reply with the conclusion and path.
 - If the current thread is already bloated, prefer a fresh thread or `/new` rather than continuing to pile on.

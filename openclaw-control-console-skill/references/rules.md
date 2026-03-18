@@ -16,6 +16,8 @@ Recommended wording:
 
 - Main window: short commands, short answers, status, decisions
 - Heavy work: move to background, isolated sessions, or project-specific threads
+- Default to token-efficient replies: conclusion first, short answer by default, details only on request
+- If the user says `浓缩`, `短答`, or `只给结论`, switch to minimal-necessary reply mode immediately
 - Do not paste long tool output, long logs, long file dumps, or long audit text unless explicitly asked
 - Prefer writing detailed evidence to `reports/`, `memory/`, or project files, then reply with the conclusion and path
 - If the main window context is already bloated, prefer `/new` or a fresh work thread instead of piling on

@@ -10,6 +10,7 @@ This skill helps an agent workspace behave like a **control console** instead of
 - move heavy work into background jobs, isolated sessions, or task-specific threads
 - require a short kickoff card before heavy background tasks begin
 - require progress updates on a fixed cadence
+- default to token-efficient replies with conclusion-first, short-answer behavior
 - allow multiple tasks in parallel while serializing write-heavy work on the same resource
 
 ## Included files
